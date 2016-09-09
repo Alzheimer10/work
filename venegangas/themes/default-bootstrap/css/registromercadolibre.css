@@ -1,0 +1,121 @@
+body{
+	font-family: 'Arial' !important;
+}
+label{
+	font-size: 1.2em;
+}
+.none{
+	display: none;
+}
+.container{
+	width: 100%!important;
+	margin: 0px!important;
+}
+.none-pm{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.registromercadolibre h1,h2,h3,h4,h5{
+	margin-top: 0px!important;
+}
+.registromercadolibre  h1{
+	background-color: #2A3883!important;
+}
+.registromercadolibre  h3{
+	background-color: #FFDD18;
+	text-align: center;
+}
+.box{
+	margin: 0 0 0 0!important;
+}
+.AddPago{
+/*	width: 80% !important;
+	margin: 20px !important;
+	height: 40px;
+	vertical-align: middle!important;
+	
+	text-align: center!important;*/
+	padding: 0px !important;
+	margin: 0px auto!important;
+
+}
+.page-heading{
+	font-size: 1.6em!important;
+}
+.form-control{
+	color: black!important;
+}
+.backcolor_input{
+	background: rgb(250, 255, 189)!important;
+}
+.step {
+	margin-bottom: 0px!important;
+}
+.step li {
+    width: 25%!important;
+}
+.cuentas-bancarias h3{
+	background: #FFDD18!important;
+	border: none;
+	margin: 0px!important;
+	padding: 5px!important;
+	text-align: center;
+}
+/*CURSORES*/
+.cursor-pointer{
+	cursor: pointer!important;
+}
+.cursor-help{
+	cursor: help!important;
+}
+.correcto{
+	border: 1px solid #46a74e !important;
+	background: url(http://venegangas.com/venegangas/themes/default-bootstrap/css/../img/icon/form-ok.png) 98% 5px no-repeat #ddf9e1 !important;
+}
+.incorrecto{
+	border: 1px solid #f13340 !important;
+	background: url(http://venegangas.com/venegangas/themes/default-bootstrap/css/../img/icon/form-error.png) 98% 5px no-repeat #fff1f2 !important;
+}
+.footer{
+	display: table-row!important;
+}
+.body{
+	display: table!important;
+}
+.form-group {
+ margin-bottom: 0px !important;
+}
+@media screen and (max-width:980px) {
+	.step li {
+	    width: 100%!important;
+	}
+	.container{
+		width: 100%!important;
+	}
+	h1{
+		font-size: 1.4em!important;
+	}
+}
+@media (max-width: 768px){
+	.container {
+    max-width: 100%!important;
+}
+}
+
+@media (min-width: 768px){
+	.seguimiento .col-sm-6 {
+    	width: 50%!important;
+	}
+	.seguimiento .col-sm-6  span{
+		padding: 0px !important;
+		border: 0px solid!important;
+	}
+	.container {
+    max-width: 100%!important;
+	}
+}
+
+@media (min-width: 992px)
+step_current span {
+    padding-left: 10px!important;
+}
